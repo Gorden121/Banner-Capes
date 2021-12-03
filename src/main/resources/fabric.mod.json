@@ -27,9 +27,14 @@
     "the_banner_capes.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12.5",
+    "fabricloader": ">=0.12.8",
     "fabric": "*",
-    "minecraft": ">=1.17.1",
-    "trinkets": ">=3.0.4"
+    "minecraft": ">=1.18",
+    "trinkets": ">=3.1.0",
+    "cloth-config": ">=6.0.42"
+  },
+  "recommends": {
+    "roughlyenoughitems": ">=7.0.343",
+    "modmenu" : ">=3.0.0"
   }
 }

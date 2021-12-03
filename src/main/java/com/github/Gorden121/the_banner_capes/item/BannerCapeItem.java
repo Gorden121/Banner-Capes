@@ -5,7 +5,7 @@ import com.github.Gorden121.the_banner_capes.Collar;
 import com.github.Gorden121.the_banner_capes.Nubbin;
 import com.github.Gorden121.the_banner_capes.data.AttributeModifierDataItem;
 import com.github.Gorden121.the_banner_capes.interfaces.BannerCapeable;
-import com.github.clevernucleus.dataattributes.api.API;
+//import com.github.clevernucleus.dataattributes.api.API;
 import com.google.common.collect.Multimap;
 import dev.emi.trinkets.api.SlotReference;
 import dev.emi.trinkets.api.TrinketItem;
@@ -221,7 +221,7 @@ public class BannerCapeItem extends TrinketItem implements BannerCapeable {
             AttributeModifierDataItem[] attributeModifierDataItems = getAttributeModifiersFromConfig(stack);
 
             for (AttributeModifierDataItem item : attributeModifierDataItems) {
-                modifiers.put(API.getAttribute(new Identifier(item.attributeName)).get(), new EntityAttributeModifier(uuid, "the_banner_capes:" + new Identifier(item.attributeName).getPath(), item.modifierValue, EntityAttributeModifier.Operation.valueOf(item.operation)));
+                //modifiers.put(API.getAttribute(new Identifier(item.attributeName)).get(), new EntityAttributeModifier(uuid, "the_banner_capes:" + new Identifier(item.attributeName).getPath(), item.modifierValue, EntityAttributeModifier.Operation.valueOf(item.operation)));
             }
         }
         return modifiers;

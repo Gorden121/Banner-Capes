@@ -46,13 +46,14 @@ dependencies {
     modImplementation "dev.emi:trinkets:${project.trinkets_version}"
 
     //PlayerEx Stuff
-    modImplementation "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-base:${project.cardinal_components_version}"
-    modImplementation "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-entity:${project.cardinal_components_version}"
-    modImplementation "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-level:${project.cardinal_components_version}"
-    modImplementation "curse.maven:dataattributes-514734:3484768"
-    modImplementation "curse.maven:playerex-409221:3499244"
+    //modImplementation "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-base:${project.cardinal_components_version}"
+    //modImplementation "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-entity:${project.cardinal_components_version}"
+    //modImplementation "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-level:${project.cardinal_components_version}"
+    //modImplementation "curse.maven:dataattributes-514734:3484768"
+    //modImplementation "curse.maven:playerex-409221:3499244"
+
     implementation 'net.objecthunter:exp4j:0.4.8'
-    modImplementation "eu.pb4:placeholder-api:${project.placeholder_api}"
+    //modImplementation "eu.pb4:placeholder-api:${project.placeholder_api}"
     modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:${project.rei}"
 
     //ModMenu
